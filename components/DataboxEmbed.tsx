@@ -1,12 +1,18 @@
-export default function DataboxEmbed() {
+interface DataboxEmbedProps {
+  src: string;
+  title: string;
+  height?: number;
+}
+
+export default function DataboxEmbed({ src, title, height = 1200 }: DataboxEmbedProps) {
   return (
     <div className="databox-embed-wrapper">
       <iframe
-        title="Vector META Ads Performance Dashboard"
-        src="https://app.databox.com/datawall/f690169e32a1b9aaf8dd120e3a95a95a4980acc69e90bb5"
+        title={title}
+        src={src}
         frameBorder="0"
         width="100%"
-        height="1200"
+        height={height}
         allowFullScreen
         className="databox-iframe"
       />
