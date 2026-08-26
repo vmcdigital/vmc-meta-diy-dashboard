@@ -11,7 +11,7 @@ export async function POST(request: Request) {
 
 if (password === SITE_PASSWORD) {
   const redirectTo = typeof from === 'string' && from.startsWith('/') ? from : '/';
-  const response = NextResponse.redirect(new URL(redirectTo, request.url));
+    const response = NextResponse.redirect(new URL(redirectTo, request.url), 303);
   response.cookies.set(COOKIE_NAME, COOKIE_VALUE, {
     httpOnly: true,
     secure: true,
@@ -24,5 +24,5 @@ if (password === SITE_PASSWORD) {
 
 const loginUrl = new URL('/login', request.url);
   loginUrl.searchParams.set('error', '1');
-  return NextResponse.redirect(loginUrl);
+    return NextResponse.redirect(loginUrl, 303);
 }
