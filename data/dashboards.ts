@@ -30,4 +30,13 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
       },
     ],
   },
+  {
+    territory: 'San Marcos (Demian Scopp)',
+    dashboards: [
+      {
+        name: 'San Marcos (Demian Scopp)',
+        embedUrl: 'https://app.databox.com/datawall/883da487f25dac0f254ce0cd6575cc3b244eb3c6a8f1ecf?i',
+      },
+    ],
+  },
 ];
