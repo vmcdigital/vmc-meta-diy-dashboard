@@ -39,4 +39,31 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
       },
     ],
   },
+  {
+    territory: 'Naperville (Tariq Sikander)',
+    dashboards: [
+      {
+        name: 'Naperville (Tariq Sikander)',
+        embedUrl: 'https://app.databox.com/datawall/a71571ff8af2738bfa328de0e491dc3adf5a846a9995fb?i',
+      },
+      ],
+  },
+  {
+    territory: 'Farmington Hills (Logan Franke)',
+    dashboards: [
+      {
+        name: 'Farmington Hills (Logan Franke)',
+        embedUrl: 'https://app.databox.com/datawall/4148b2ebb0179e08fad27cd719e8c9d53efa9546a9996c2?i',
+      },
+      ],
+  },
+  {
+    territory: 'Virginia Beach (Mikail Bonett)',
+    dashboards: [
+      {
+        name: 'Virginia Beach (Mikail Bonett)',
+        embedUrl: 'https://app.databox.com/datawall/57f1a812ad5d0001549d8a2f50b551b44d2fb146a9996f2?i',
+      },
+      ],
+  },
 ];
