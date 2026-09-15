@@ -75,6 +75,18 @@ export default function GettingStarted() {
         </a>
         <p className="pdf-note">Prefer to reach out directly? Email Joel at jkoncinsky@cutco.com or call (318) 542-9251.</p>
       </div>
+
+      <div className="step-item">
+        <h3 className="step-title">Step 4: Share How You Manage Your Meta Leads</h3>
+          <p className="step-description">Help us understand how you're following up with your Meta leads by filling out this quick form.</p>
+          <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeZO-pjB2_3IisTKUIHqQnpL6wBypB6bGFIly_aEs_3pskijQ/viewform?usp=sharing&ouid=104379857482353660407"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="form-button"
+        >
+            Share How You Manager META Leads</a>
+        </div>
     </div>
   );
 }
