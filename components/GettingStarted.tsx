@@ -85,7 +85,7 @@ export default function GettingStarted() {
           rel="noopener noreferrer"
           className="form-button"
         >
-            Share How You Manager META Leads</a>
+          Share how you manage your META leads</a>
         </div>
     </div>
   );
