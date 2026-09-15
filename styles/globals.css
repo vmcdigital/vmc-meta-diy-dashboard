@@ -285,6 +285,25 @@ body {
     background: #003d6b;
 }
 
+.form-button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: var(--color-info);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--radius-md);
+    font-weight: 500;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+    width: fit-content;
+}
+
+.form-button:hover {
+    background: var(--color-primary-dark);
+}
+
 .embeds-section {
     display: flex;
   flex-direction: column;
