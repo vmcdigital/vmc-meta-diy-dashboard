@@ -9,7 +9,7 @@ export const metadata = {
 export default function AdResultsPage() {
   return (
     <section className="page-section">
-      <h2 className="page-title">2. Ad Results (DIY and National)</h2>
+      <h2 className="page-title">3. Ad Results (DIY and National)</h2>
 
       <div className="embeds-section">
         <h3 className="embed-title">National</h3>
