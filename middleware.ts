@@ -6,6 +6,7 @@ const COOKIE_VALUE = 'granted';
 
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
+  console.log('MW_DEBUG', pathname, 'cookie-header=', request.headers.get('cookie'));
 
 const isPublicPath =
   pathname.startsWith('/login') ||
