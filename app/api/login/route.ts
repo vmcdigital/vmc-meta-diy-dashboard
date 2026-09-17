@@ -8,22 +8,14 @@ export async function POST(request: Request) {
   const formData = await request.formData();
   const password = formData.get('password');
   const from = formData.get('from');
-
 if (password === SITE_PASSWORD) {
       const redirectTo = typeof from === 'string' && from.startsWith('/') ? from : '/';
-      const html = `<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0;url=${redirectTo}" /></head><body><script>location.replace(${JSON.stringify(redirectTo)});</script></body></html>`;
-      const response = new NextResponse(html, {
-              status: 200,
-              headers: { 'Content-Type': 'text/html' },
-      });
-  response.cookies.set(COOKIE_NAME, COOKIE_VALUE, {
-    httpOnly: true,
-    secure: true,
-    sameSite: 'lax',
-    path: '/',
-    maxAge: 60 * 60 * 24 * 30,
+const maxAge = 60 * 60 * 24 * 30;
+  const html = `<!DOCTYPE html><html><head><script>document.cookie = "${COOKIE_NAME}=${COOKIE_VALUE}; path=/; max-age=${maxAge}; SameSite=Lax; Secure"; location.replace(${JSON.stringify(redirectTo)});</script></head><body>Logging in...</body></html>`;
+  return new NextResponse(html, {
+    status: 200,
+    headers: { 'Content-Type': 'text/html' },
   });
-  return response;
 }
 
 const loginUrl = new URL('/login', request.url);
