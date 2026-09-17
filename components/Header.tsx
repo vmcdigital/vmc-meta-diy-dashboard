@@ -26,7 +26,7 @@ export default function Header() {
             </svg>
             <span style={{ fontSize: '0.75rem', fontWeight: '600', opacity: 0.9 }}>VECTOR MARKETING</span>
           </div>
-          <h1 className="header-title">The Ads Kitchen</h1>
+          <h1 className="header-title">VectorPaidAds.com</h1>
           <p className="header-subtitle">DIY Manager Dashboard - Fall 2026</p>
         </div>
 
