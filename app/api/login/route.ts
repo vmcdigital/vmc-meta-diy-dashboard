@@ -10,8 +10,12 @@ export async function POST(request: Request) {
   const from = formData.get('from');
 
 if (password === SITE_PASSWORD) {
-  const redirectTo = typeof from === 'string' && from.startsWith('/') ? from : '/';
-    const response = NextResponse.redirect(new URL(redirectTo, request.url), 303);
+      const redirectTo = typeof from === 'string' && from.startsWith('/') ? from : '/';
+      const html = `<!DOCTYPE html><html><head><meta http-equiv="refresh" content="0;url=${redirectTo}" /></head><body><script>location.replace(${JSON.stringify(redirectTo)});</script></body></html>`;
+      const response = new NextResponse(html, {
+              status: 200,
+              headers: { 'Content-Type': 'text/html' },
+      });
   response.cookies.set(COOKIE_NAME, COOKIE_VALUE, {
     httpOnly: true,
     secure: true,
