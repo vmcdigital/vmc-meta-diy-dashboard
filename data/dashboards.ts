@@ -44,7 +44,7 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
     dashboards: [
       {
         name: 'Naperville (Tariq Sikander)',
-        embedUrl: 'https://app.databox.com/datawall/a71571ff8af2738bfa328de0e491dc3adf5a846a9995fb?i',
+        embedUrl: 'https://app.databox.com/datawall/b6de8dff840cfd42dac60f1f8fbceff16b48d86ab2d17f?2169080=zjuzmti1&i',
       },
       ],
   },
