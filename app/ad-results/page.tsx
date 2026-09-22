@@ -16,6 +16,7 @@ export default function AdResultsPage() {
         <DataboxEmbed
           src={NATIONAL_DASHBOARD.embedUrl}
           title="Vector META Ads Performance Dashboard - National"
+          aspectRatio={16 / 9}
         />
       </div>
 
