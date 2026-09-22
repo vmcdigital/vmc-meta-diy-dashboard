@@ -22,6 +22,24 @@ export const NATIONAL_DASHBOARD: Dashboard = {
 // },
 export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
   {
+    territory: 'Virginia Beach (Mikail Bonett)',
+    dashboards: [
+      {
+        name: 'Virginia Beach (Mikail Bonett)',
+        embedUrl: 'https://app.databox.com/datawall/57f1a812ad5d0001549d8a2f50b551b44d2fb146a9996f2?i',
+      },
+      ],
+  },
+  {
+    territory: 'Omaha / Storm (Tyler Strauss)',
+    dashboards: [
+      {
+        name: 'Omaha / Storm (Tyler Strauss)',
+        embedUrl: 'https://app.databox.com/datawall/5473d1c74bccb1ef84ff52ad2fd95acb1d327046ab2ce60?i',
+      },
+    ],
+  },
+  {
     territory: 'Northwoods (Jason Heinritz)',
     dashboards: [
       {
@@ -56,24 +74,6 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
         embedUrl: 'https://app.databox.com/datawall/4148b2ebb0179e08fad27cd719e8c9d53efa9546a9996c2?i',
       },
       ],
-  },
-  {
-    territory: 'Virginia Beach (Mikail Bonett)',
-    dashboards: [
-      {
-        name: 'Virginia Beach (Mikail Bonett)',
-        embedUrl: 'https://app.databox.com/datawall/57f1a812ad5d0001549d8a2f50b551b44d2fb146a9996f2?i',
-      },
-      ],
-  },
-  {
-    territory: 'Omaha / Storm (Tyler Strauss)',
-    dashboards: [
-      {
-        name: 'Omaha / Storm (Tyler Strauss)',
-        embedUrl: 'https://app.databox.com/datawall/5473d1c74bccb1ef84ff52ad2fd95acb1d327046ab2ce60?i',
-      },
-    ],
   },
   {
     territory: 'Champaign (Connor Thomas)',
