@@ -66,4 +66,13 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
       },
       ],
   },
+  {
+    territory: 'Omaha / Storm (Tyler Strauss)',
+    dashboards: [
+      {
+        name: 'Omaha / Storm (Tyler Strauss)',
+        embedUrl: 'https://app.databox.com/datawall/5473d1c74bccb1ef84ff52ad2fd95acb1d327046ab2ce60?i',
+      },
+    ],
+  },
 ];
