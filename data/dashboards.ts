@@ -75,4 +75,13 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
       },
     ],
   },
+  {
+    territory: 'Champaign (Connor Thomas)',
+    dashboards: [
+      {
+        name: 'Champaign (Connor Thomas)',
+        embedUrl: 'https://app.databox.com/datawall/232bd3d3d2054798f6513e213f534e18a025a86ab2cfb2?i',
+      },
+    ],
+  },
 ];
