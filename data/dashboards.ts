@@ -120,4 +120,13 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
       },
     ],
   },
+  {
+    territory: 'Rockville (Kate Vasey)',
+    dashboards: [
+      {
+        name: 'Rockville (Kate Vasey)',
+        embedUrl: 'https://app.databox.com/datawall/175ad5b52b38238c0ad39d39d1951fa537da7c869e903b2?i',
+      },
+    ],
+  },
 ];
