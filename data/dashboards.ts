@@ -93,4 +93,22 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
       },
     ],
   },
+  {
+    territory: 'Las Vegas (Eric Arias)',
+    dashboards: [
+      {
+        name: 'Las Vegas (Eric Arias)',
+        embedUrl: 'https://app.databox.com/datawall/fbfae5353b0456ced4ee356ed5112a757274646ab59efe?i',
+      },
+    ],
+  },
+  {
+    territory: 'Rising Sun Division (Dani Kalil / Sarah Krick)',
+    dashboards: [
+      {
+        name: 'Rising Sun Division (Dani Kalil / Sarah Krick)',
+        embedUrl: 'https://app.databox.com/datawall/82bb59a0d4c16e8f61f82286e2b7db5942aad246ab58f2a?i',
+      },
+    ],
+  },
 ];
