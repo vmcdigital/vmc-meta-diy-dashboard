@@ -84,4 +84,13 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
       },
     ],
   },
+  {
+    territory: 'Lake County IL (Lindley McCutcheon)',
+    dashboards: [
+      {
+        name: 'Lake County IL (Lindley McCutcheon)',
+        embedUrl: 'https://app.databox.com/datawall/d2e5ada06a7cb9b3de5507f22864a7a94571a946abdd174?i',
+      },
+    ],
+  },
 ];
