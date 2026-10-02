@@ -111,4 +111,13 @@ export const TERRITORY_DASHBOARDS: TerritoryGroup[] = [
       },
     ],
   },
+  {
+    territory: 'Edmond, OK (Nick Matlack)',
+    dashboards: [
+      {
+        name: 'Edmond, OK (Nick Matlack)',
+        embedUrl: 'https://app.databox.com/datawall/0cfea4bf2865826665d6ecdf0b04cf82fbf4c86ab59e70?i',
+      },
+    ],
+  },
 ];
